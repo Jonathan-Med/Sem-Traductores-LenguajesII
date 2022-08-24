@@ -14,3 +14,5 @@ donde asignamos un valor constante para todos los simbolos o tokens que vamos a 
   https://github.com/Jonathan-Med/Sem-Traductores-LenguajesII/blob/main/Analizador-Lexico/Captura1.png
   
   
+  https://github.com/Jonathan-Med/Sem-Traductores-LenguajesII/blob/main/Analizador-Lexico/Captura2.png
+  
