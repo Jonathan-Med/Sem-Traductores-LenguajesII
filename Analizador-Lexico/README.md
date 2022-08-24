@@ -11,6 +11,6 @@ donde asignamos un valor constante para todos los simbolos o tokens que vamos a 
   
   
   # Capturas de Pantalla
-  
+  https://github.com/Jonathan-Med/Sem-Traductores-LenguajesII/blob/main/Analizador-Lexico/Captura1.png
   
   
