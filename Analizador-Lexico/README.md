@@ -1,3 +1,9 @@
+Nombre: Medina Herrera Jonathan 
+
+Codigo: 217131222
+
+Seccion: D02
+
 # Funcionamiento del Código
 
 El proyecto está conformado por 3 archivos de los cuales 2 son ".cpp" y uno es un ".h". Este ultimo contiene la definicion de la clase "SimboloTipo" que es
