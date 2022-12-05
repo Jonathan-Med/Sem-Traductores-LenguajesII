@@ -1,0 +1,10 @@
+void suma(int a,int b);
+void resta(int a,int b);
+void mul(float a,float b);
+void div(float a,float b);
+void pot(int a,int b);
+void raiz(float a);
+void seno(float a);
+void coseno(float a);
+void tangente(float a);
+

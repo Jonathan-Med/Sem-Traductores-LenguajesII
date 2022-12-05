@@ -1,0 +1,68 @@
+void suma(int a,int b){
+cout <<"Operacion";
+int a;
+int b;
+a = a+b;
+cout <<a;
+}
+
+void resta(int a,int b){
+cout <<"Operacion";
+int a;
+int b;
+a = a-b;
+cout <<a;
+}
+
+void mul(float a, float b){
+cout <<"Operacion";
+float a;
+float b;
+a = a*b;
+cout <<a;
+}
+
+void div(float a, float b){
+cout <<"Operacion";
+float a;
+float b;
+a = a/b;
+cout <<a;
+}
+
+void pot(int a, int b){
+cout <<"Operacion";
+int a;
+int b;
+a = a^b;
+cout <<a;
+}
+
+void raiz(float a){
+cout <<"Operacion";
+float a;
+sqrt a;
+cout <<a;
+}
+
+void seno(int a){
+cout <<"Operacion";
+float a;
+sen a;
+cout <<a;
+}  
+
+void coseno(float a){
+cout <<"Operacion";
+float a;
+cos a;
+cout <<a;
+} 
+
+void tangente(float a){
+cout <<"Operacion";
+float a;
+tan a;
+cout <<a;
+} 
+
