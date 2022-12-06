@@ -41,4 +41,8 @@ compatibilidad. Existe una relación muy estrecha entre la programación en C y 
   * Operaciones aritméticas (potencia y raíz)
   * Funciones trigonométricas
   * Uso de la función volatile
-  * Uso del analizador léxico, sintáctico y semántico, para poder utilizar el lenguaje desarrollado.
+  * Uso del analizador léxico, sintáctico y semántico, para poder utilizar el lenguaje desarrollado.  
+
+Este parte del código esta contenida en la parte de asmcpp.h que utiliza el lenguaje ensamblador en c++, y como ya se mencionó antes, este realiza operaciones matematicas, es una calculadora, y en el codigo está contenidas las operaciones que serán llamadas cuando el codigo sea leido y revisado, ya que esté archivo está conectado con las demás fases del compilador y el funcionamiento de las funciones se ve afectado por un archivo txt, donde si es modificado, no se podrán realizar las operaciones que aparezcan en la ventana, por lo que el txt funciona como el nuevos lenguaje que se desarrolló.  
+Acontinuación se mostraran capturas con el funcionamiento de la calculadora:  
+
