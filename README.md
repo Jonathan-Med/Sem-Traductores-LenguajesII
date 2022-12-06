@@ -35,10 +35,10 @@ La generación de código consiste en relacionar todo lo que se ha hecho hasta a
 conjunto de instrucciones y sus varios modos de direccionamiento que dependen de la arquitectura del hardware, cada nuevo procesador de INTEL que sale al mercado, el
 fabricante agrega algunas instrucciones a su conjunto de instrucciones, pero siempre conservan las instrucciones y registros de los modelos anteriores por razones de
 compatibilidad. Existe una relación muy estrecha entre la programación en C y la programación en ensamblador. C fue creado para evitarle a los programadores del sistema operativo UNIX seguir escribiéndolo en ensamblador. Las ventajas de programar en C lo mismo que antes se programaba en ensamblador son obvias: portabilidad y legibilidad a través de un código bien estructurado. Sin embargo, las partes del sistema en las que es necesario trabajar con características específicas del hardware no pueden ser escritas en C.  
-*El generador de código deberá reconocer lo siguiente:  
-  *Operaciones aritméticas (suma y resta)
-  *Operaciones aritméticas (multiplicación y división)
-  *Operaciones aritméticas (potencia y raíz)
-  *Funciones trigonométricas
-  *Uso de la función volatile
-  *Uso del analizador léxico, sintáctico y semántico, para poder utilizar el lenguaje desarrollado.
+* El generador de código deberá reconocer lo siguiente:  
+  * Operaciones aritméticas (suma y resta)
+  * Operaciones aritméticas (multiplicación y división)
+  * Operaciones aritméticas (potencia y raíz)
+  * Funciones trigonométricas
+  * Uso de la función volatile
+  * Uso del analizador léxico, sintáctico y semántico, para poder utilizar el lenguaje desarrollado.
