@@ -12,6 +12,9 @@ Esta fase del código se encuentra contenida en el archivo lexico.h que en pocas
 En las siguientes capturas se podra ver una prueba de qué es lo que ocurre cuando se agrega un simbolo que no se encuentra en el lenguaje y otro cuando todo está en orden:
 ![error_lexico](https://user-images.githubusercontent.com/111925532/205796293-9cc7f0ab-415c-423c-a175-dd3dab8a7f75.png)
 
+
+![lexico_funcionando](https://user-images.githubusercontent.com/111925532/205796392-5027156a-7cb8-4f5b-8a95-491932e4a8ad.png)
+
 -------------
 #### Analizador Sintactico:  
 El analizador sintactico esla segunda fase del compilador, recibe como entrada los tokens de salida que mandó el analizador léxico, en estas parte se manejan dichos tokens realiza un analisis de la gramatica y de ese analisis se genera un árbol sintactico. Aquí se que comprueba, procesa y reenvía las instrucciones del código fuente. Después de que un analizador léxico crea tokens estos son procesados por el analizador sintáctico para construir la estructura de datos.
@@ -19,7 +22,13 @@ Como parte del código este se contiene en la parte de sintactico.h y esta desar
 Para empezar este programa utiliza un arreglo, que ayuda a guardar la información de las palabras aceptadas que proporciona el analizador léxico. además de usar dos autómatas los cuales representan los números reales y los identificadores válidos, en la parte principal del codigo se declaran las estructuras de los estados del autómata, también la organización de signos y palabras reservadas. También se encuentran funciones enteras que serán las declaraciones de las estructuras condicionales.  
 Además de tener las funciones que analizarán y realizarán el llenado de los autómatas, que tienen estructuras que contienen vectores, y cadenas que son leídas.
 Como se puede observar en las capturas el programa nos da aviso cuando ha habido algún error de sintaxis y cuando no:
+![error_sintactico](https://user-images.githubusercontent.com/111925532/205796558-8b9876f6-24e4-4b08-9b62-7d2c5ac0b1da.png)
 
+![error_sintactico2](https://user-images.githubusercontent.com/111925532/205796588-33495336-6b95-487f-9464-4a2a3bee3c40.png)
+
+![error_sintactico3](https://user-images.githubusercontent.com/111925532/205796637-8ee3b3b1-3e45-4074-87bc-0fe1bd881840.png)
+
+![sintactico_bien](https://user-images.githubusercontent.com/111925532/205796516-a4e2d2e6-ffc4-4334-9045-e6d2a1a833ff.png)
 -------------
 #### Analizador Semántico:  
 El analizador Semántico es la tercera fase del desarrollo de un compilador, en esta parte se analiza el contexto en la que las instrucciones se encuentran, para que despues se haga su implementación en lenguaje de bajo nivel, en esta fase se analiza una estructura de instrucciones en un árbol semántico y luego comparan los
@@ -29,6 +38,13 @@ válidos. El análisis semántico se realiza a la vez que el análisis sintácti
 así como de la organización de signos y palabras reservadas. También se encuentran funciones enteras que serán las declaraciones de las estructuras condicionales.
 además de tener funciones que analizarán, realizarán el llenado de los autómatas y estructuras contienen vectores, y cadenas que son leídas.  
 Como se puede observar en las siguientes capturas, cómo es que se muestran los errores cuando el código está escrito de manera incorrecta y otra de cómo se ve un código escrito correctamente:
+![error_semantico](https://user-images.githubusercontent.com/111925532/205796692-d6c67f09-c99f-40b1-88ba-445cb724de17.png)
+
+![semantico-error](https://user-images.githubusercontent.com/111925532/205796720-f5d148dd-3163-4385-b787-ac037a209835.png)
+
+![error_semantico2](https://user-images.githubusercontent.com/111925532/205796751-f22a2d1d-a30e-4d21-9651-55d1d20f9196.png)
+
+![semantico_funcionando](https://user-images.githubusercontent.com/111925532/205796784-d3b6b745-a2b1-43b2-96c4-53ad9a8fa582.png)
 
 -----------
 #### Generación de Código:
@@ -47,4 +63,14 @@ creado para evitarle a los programadores del sistema operativo UNIX seguir escri
 
 Este parte del código esta contenida en la parte de asmcpp.h que utiliza el lenguaje ensamblador en c++, y como ya se mencionó antes, este realiza operaciones matematicas, es una calculadora, y en el codigo está contenidas las operaciones que serán llamadas cuando el codigo sea leido y revisado, ya que esté archivo está conectado con las demás fases del compilador y el funcionamiento de las funciones se ve afectado por un archivo txt, donde si es modificado, no se podrán realizar las operaciones que aparezcan en la ventana, por lo que el txt funciona como el nuevos lenguaje que se desarrolló.  
 Acontinuación se mostraran capturas con el funcionamiento de la calculadora:  
+![resta](https://user-images.githubusercontent.com/111925532/205796859-fe1c444f-3b94-4817-a285-9e462e73f604.png)
 
+![multiplicacion](https://user-images.githubusercontent.com/111925532/205796875-78aa2840-acf6-4821-b094-813261bd3cdb.png)
+
+![raiz](https://user-images.githubusercontent.com/111925532/205796902-b43d2d25-8377-4dff-a421-473084b60534.png)
+
+![potencia](https://user-images.githubusercontent.com/111925532/205796933-379be469-e6da-4864-8d62-2136e58a835c.png)
+
+![coseno](https://user-images.githubusercontent.com/111925532/205796952-681ea5d9-868b-40cc-bb79-7c1470cbcf3e.png)
+
+![tangente](https://user-images.githubusercontent.com/111925532/205796973-d2655c14-adcb-4665-a7b9-1ce4daad7df9.png)
