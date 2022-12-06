@@ -30,3 +30,8 @@ además de tener funciones que analizarán, realizarán el llenado de los autóm
 Como se puede observar en las siguientes capturas, cómo es que se muestran los errores cuando el código está escrito de manera incorrecta y otra de cómo se ve un código escrito correctamente:
 
 -----------
+#### Generación de Código:
+La generación de código consiste en relacionar todo lo que se ha hecho hasta ahora en el compilador que cuenta ya con tres fases de desarrollo. Se trata así pues de la última fase del compilador que se han desarrollado, el cual tiene como función vincular las funciones del lenguaje desarrollado con las de ensamblador. El lenguaje ensamblador que se utiliza para traducir programas al código de máquina. Cada microprocesador o microcontrolador tiene su propio lenguaje ensamblador con su particular
+conjunto de instrucciones y sus varios modos de direccionamiento que dependen de la arquitectura del hardware, cada nuevo procesador de INTEL que sale al mercado, el
+fabricante agrega algunas instrucciones a su conjunto de instrucciones, pero siempre conservan las instrucciones y registros de los modelos anteriores por razones de
+compatibilidad. Existe una relación muy estrecha entre la programación en C y la programación en ensamblador. C fue creado para evitarle a los programadores del sistema operativo UNIX seguir escribiéndolo en ensamblador. Las ventajas de programar en C lo mismo que antes se programaba en ensamblador son obvias: portabilidad y legibilidad a través de un código bien estructurado. Sin embargo, las partes del sistema en las que es necesario trabajar con características específicas del hardware no pueden ser escritas en C.
